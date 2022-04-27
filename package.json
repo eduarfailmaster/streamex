@@ -1,0 +1,21 @@
+{
+  "name": "streamingvideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.18.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "hls-server": "^1.5.0",
+    "node-ffmpeg-stream": "^1.1.0",
+    "node-media-server": "^2.3.9",
+    "nodemon": "^2.0.15"
+  }
+}
